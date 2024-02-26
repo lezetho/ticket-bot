@@ -1,4 +1,5 @@
 {
     "token": "YOUR_TOKEN_HERE",
-    "prefix": "-"
+    "prefix": "- (this is a example, you can do anything)",
+    "serverName": "YOUR_SERVER_NAME_HERE"
 }
