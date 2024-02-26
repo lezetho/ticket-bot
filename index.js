@@ -11,7 +11,7 @@ const { token } = require('./config.json');
 client.login(token);
 client.commands = new Collection();
 
-//|▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬| Commandes Handler |▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬|
+// Regiser Commands
 
 const commandFiles = readdirSync('./command').filter(file => file.endsWith('.js'));
 for (const file of commandFiles) {
@@ -19,7 +19,7 @@ for (const file of commandFiles) {
 	client.commands.set(command.name, command);
 	}
 
-//|▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬| Event Handler |▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬|
+// Register Events
 
 const eventFiles = readdirSync('./events').filter(file => file.endsWith('.js'));
 for (const file of eventFiles) {
