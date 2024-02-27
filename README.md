@@ -18,3 +18,6 @@ Edit the `config.json`
     "serverName": "YOUR_SERVER_NAME_HERE"
 }
 ```
+
+### Original Repo:
+https://github.com/t3mq/ticket-bot
