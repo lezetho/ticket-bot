@@ -31,7 +31,7 @@ module.exports = {
                 title: 'Open ticket',
                 description: '**__How To Open A Ticket :__**\nPlease choose the type of ticket you wish to open.',
                 color: "BLURPLE",
-                footer: {text: `${serverName} | Tickets`}
+                footer: {text: `Created by @lezeth0 | https://github.com/lezetho/ticket-bot`}
             }],
             components: [row]
         })
