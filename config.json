@@ -1,5 +1,7 @@
 {
     "token": "YOUR_TOKEN_HERE",
     "prefix": "- (this is a example, you can do anything)",
-    "serverName": "YOUR_SERVER_NAME_HERE"
+    "serverName": "YOUR_SERVER_NAME_HERE",
+    "ticketCategory": "CATEGORY_ID_HERE",
+    "pingRole": "ROLE_ID_HERE"
 }
